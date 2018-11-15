@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:weightSum="1">
+     <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:divider="@color/main_color_green"
+            android:dividerHeight="1dp"
+            tools:listitem="@layout/chat_item"
+         android:layout_weight="0.90">
+        </ListView>
+
+    <Button
+        style="@style/btn_white_large"
+        android:id="@+id/btnTakeMeBack"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="@string/take_me_back"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

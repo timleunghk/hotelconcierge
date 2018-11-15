@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.chatt.demo.FragmentUserList">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallpaper"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="462dp"
+            android:divider="@color/main_color_green"
+            android:dividerHeight="1dp"
+            tools:listitem="@layout/chat_item"
+            android:layout_weight="0.20">
+        </ListView>
+
+        <Button
+            style="@style/btn_white_large"
+            android:id="@+id/btnTakeMeBack"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:text="@string/take_me_back"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>
+<!-- From: file:/D:/android%20source%20code/Shang%20Concierge/app/src/main/res/layout/fragment_fragment_user_list.xml -->

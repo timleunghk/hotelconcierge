@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="opentok_apikey">45518002</string>
+
+    <string name="parse_appid">xIVzI9p5yVJPBpf1BjgnyCYSXiD0E5qZvelOSfKb</string>
+    <string name="parse_keyid">YquCC0n0SGQ8uwtCPinU7zMSYS2qTCC76gDi6ehC</string>
+    <string name="parse_server">http://parseserver-4nvpm-env.us-east-1.elasticbeanstalk.com/parse/</string>
+
+    <string name="app_name">Shang Concierge</string>
+    <string name="type_msg">Please Type your message here</string>
+    
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    
+    <string name="or">or</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="description">Full Name</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_my_pwd">I’ve forgotten my password?</string>
+    <string name="my_chats">My Chats</string>
+    <string name="all_chats">All Chats</string>
+    <string name="search">Search</string>
+    <string name="to">To:</string>
+    <string name="edit">Edit</string>
+    <string name="new_chat">New Chat</string>
+    <string name="alert_wait">Please wait...</string>
+    <string name="err_fields_empty">Please fill all the fields.</string>
+    <string name="err_singup">Error occurred while signup:</string>
+    <string name="err_login">Error occurred while login:</string>
+    <string name="err_users">Error occurred while finding users:</string>
+    <string name="alert_loading">Loading...</string>
+    <string name="msg_no_user_found">No users found for chat!</string>
+    <string name="setupusertype">Am I Staff?</string>
+    <string name="setupusertypeoff">I am Guest</string>
+    <string name="setupusertypeon">I am Staff</string>
+    <string name="busy_call">Sorry, XXCaller is not available to pick up your call now,\r\nPlease try again later or leave your message here.</string>
+
+    <string name="alertdist">150.00</string>
+    <string name="title_activity_clear_notification">ClearNotification</string>
+    <string name="location_notify">Welcome to XXLoc\r\nShang Concierge is ready for your request.\r\nDo you want to seek for assistance?</string>
+    <string name="location_notify_yes">Yes</string>
+    <string name="location_notify_no">No</string>
+    <string name="action_close_session">Close session</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_incorrect_password">Password is not correct, please try again</string>
+
+    <string name="take_me_back">Take Me Back</string>
+
+    <string name="title_activity_map">Take Me Back</string>
+    <string name="install_gmap">Google Map is not found in your mobile phone. Please tap OK to setup</string>
+    <string name="install_gmap_address">market://details?id=com.google.android.apps.map</string>
+    <string name="install_gmap_reply">OK</string>
+    <string name="test_staying_hotel">Kowloon Shangri-La</string>
+    <string name="title_activity_video_call">VideoCallActivity</string>
+
+    <string name="call_start">We are making call to representative of Concierge, please wait. </string>
+    <string name="call_notify">You have a video call from representative of Concierge</string>
+    <string name="call_notify_yes">Answer</string>
+    <string name="call_notify_no">Hang Up</string>
+    <string name="title_activity_layout_ui_activity">layout_ui_activity</string>
+    <string name="endCall2">End Call</string>
+
+    <string name="archivingOn">Archiving on</string>
+    <string name="archivingOff">Archiving off</string>
+    <string name="notification">Ongoing call</string>
+    <string name="menu_settings">Settings</string>
+    <string name="audioOnly">Audio Only</string>
+    <string name="no_take_me_home">Take me home feature is currently disabled because location cannot be detected.</string>
+    <string name="new_message">You have XXMsgNo new message(s)</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_camera_request">We are going to open your camera for further assistance.</string>
+    <string name="open_camera_request_ok">YES (\u2713)</string>
+    <string name="open_camera_request_deny">NO (X)</string>
+    <string name="open_camera_request_done">We have stopped capturing your camera\r\nThank you for your assistance.</string>
+
+
+</resources>

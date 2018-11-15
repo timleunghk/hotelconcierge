@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wallpaper"
+    tools:context="com.chatt.Login" >
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+    <LinearLayout
+        android:layout_weight="0.02"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/loginbg" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/pad_20dp"
+        android:paddingLeft="@dimen/pad_15dp"
+        android:paddingRight="@dimen/pad_15dp"
+        android:paddingTop="@dimen/pad_20dp"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="186dp"
+            android:layout_height="86dp"
+            android:src="@drawable/logo_login"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:id="@+id/user"
+            style="@style/editext_graybg"
+            android:layout_width="196dp"
+            android:layout_height="29dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="@string/username">
+
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/pwd"
+            style="@style/editext_graybg"
+            android:layout_width="196dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:drawableLeft="@drawable/ic_pwd"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+          >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btn_white_large"
+            android:layout_width="196dp"
+            android:layout_height="29dp"
+            android:text="@string/log_in"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

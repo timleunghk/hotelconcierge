@@ -1,0 +1,79 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Shang Concierge - Online Page for Staffs</title>
+   <script src="http://static.opentok.com/webrtc/v2.4/js/TB.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script src="scripts/opentok2.2.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        window.onbeforeunload = function () {
+            return "You are going to leave Shang Concierge.\r\nOnce you confirm, all active connections will be disconnected."; 
+        };
+    </script>
+</head>
+<body background="/images/wallpaper.gif">
+		 <div class="title" style="position: absolute; margin:0 auto;top: 0px; left:0px; width:1280px;height:50px;border: 1px solid #bb9754;background-color:#bb9754;">
+    	<div class="titlename" style="position: absolute; top: 0px; left:500px;font-weight:bold;
+			color: #EBE0CD; font-size:40px">Shang Concierge</div>
+        </div>
+        <div id="opentok_console" class="opentok_console" >
+		<div id="links" class="links"  style="position: absolute; top: 60px;width: 230px">
+		    <div class="header"  style="width: 230px;">
+			Control Panel
+		    </div>
+		    <div id="controlpanel" style="width: 230px; background-image:url(/images/wallpaper.gif);">
+		        <input id="txtName" style="width: 220px;" type="text" value="Concierge" readonly/>
+		        <input type="button" value="Connect" id="connectLink" onclick="javascript:connect()" />
+		        <input type="button" value="Leave" id="disconnectLink" onclick="javascript:disconnect()" style="display: none" />
+		        <div class="header" style="width: 230px">
+			Guest(s) Online
+			</div>
+		        <div id="onlineusers" style="width: 230px;height: 700px; background-image:url(/images/wallpaper.gif);">
+		        </div>
+				
+		</div>
+	</div>
+    
+    <div class="videos" style="position: absolute; top: 60px; left:350px; width: 750px;height:100px;">
+           <div id="myCamera" class="publisherContainer"  ></div>
+           <div id="subscribers" class="subscribersContainer" ></div>
+ 	</div>
+    
+     <div id="sound"></div>
+    
+    <div id="opentok_chat" class="links" 
+    style="position: absolute; left: 350px; top: 440px; width: 725px; height: 260px;"> 
+	    <div class="header"
+        >Message Contents</div>
+		        <div id="onlineusers">
+			<textarea name="txtChat" id="txtChat" style="width: 715px; height: 230px" readonly></textarea>
+		        </div>
+	</div>
+	<div id="acceptCallBox">
+	    <!-- Should be initially hidden using CSS -->
+	    <div id="acceptCallLabel"></div>
+	    <input type="button" id="callAcceptButton" value="Accept" /> <input type="button" id="callRejectButton" value="Reject" />
+	</div>
+    
+    
+     <div id="sendchat"  style="position: absolute; top: 700px; left: 350px;width:725px; height: 147px;border:1px solid #bb9754;" >
+	 	<textarea name="txtsendchat" id="txtsendchat" style="width: 715px; height: 100px" ></textarea>
+		<br>
+ 		
+	  
+		<input type="button" style="width: 350px; " value="Send Message" id="sendchat" onclick="javascript:sendSignal()" />
+ 			<input type="button" style="width: 350px; " value="Clear Message" id="sendchat" onclick="javascript:sendSignal()"/>	
+	   </div>
+	</div>
+    </div>   
+</div>
+
+	<script type="text/javascript" charset="utf-8">
+		//show('connectLink');
+		//hide('sendchat');
+	</script>
+
+
+</body>
+</html>

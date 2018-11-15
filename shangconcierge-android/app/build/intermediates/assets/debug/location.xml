@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocList>
+    <location>
+        <type>Hotel</type>
+        <name>Kowloon Shangri-La</name>
+        <area>Kowloon</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.297198</lat>
+        <long>114.177361</long>
+    </location>
+    <location>
+        <type>Hotel</type>
+        <name>Island Shangri-La</name>
+        <area>Central</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.2771346</lat>
+        <long>114.1644189</long>
+    </location>
+    <location>
+        <type>Hotel</type>
+        <name>Hotel Jen Hong Kong</name>
+        <area>Western Area</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.28588</lat>
+        <long>114.135022</long>
+    </location>
+    <location>
+        <type>Transport</type>
+        <name>MTR Tai Koo Station</name>
+        <area>Tai Koo</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.284649</lat>
+        <long>114.216359</long>
+    </location>
+    <location>
+        <type>Transport</type>
+        <name>MTR Causeway Bay Station</name>
+        <area>Causeway Bay</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.280209</lat>
+        <long>114.184116</long>
+    </location>
+    <location>
+        <type>Transport</type>
+        <name>MTR Wan Chai Station</name>
+        <area>Wan Chai</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.277608</lat>
+        <long>114.172967</long>
+    </location>
+    <location>
+        <type>Transport</type>
+        <name>MTR Tsim Sha Tsui Station</name>
+        <area>Kowloon</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.297604</lat>
+        <long>114.172175</long>
+    </location>
+    <location>
+        <type>Transport</type>
+        <name>MTR Sham Shui Po Station</name>
+        <area>Kowloon</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.33107</lat>
+        <long>114.161876</long>
+    </location>
+    <location>
+        <type>TouristInfo</type>
+        <name>Apliu Street</name>
+        <area>Kowloon</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.3291536</lat>
+        <long>114.1633124</long>
+    </location>
+    <location>
+        <type>TouristInfo</type>
+        <name>Golden Computer Arcade, Sham Shui Po</name>
+        <area>Kowloon</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.332207</lat>
+        <long>114.16159</long>
+    </location>
+    <location>
+        <type>Office</type>
+        <name>Kerry Centre</name>
+        <area>Quarry Bay</area>
+        <city>Hong Kong</city>
+        <country>Hong Kong</country>
+        <lat>22.2904744</lat>
+        <long>114.2097318</long>
+    </location>
+  </LocList>

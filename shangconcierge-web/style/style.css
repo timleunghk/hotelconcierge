@@ -1,0 +1,64 @@
+ 
+        .opentok_console {
+           
+            margin-left: 100px;
+            width: 600px;
+           
+        }
+        .links {
+            float: left;
+            width: 200px;
+            border: 1px solid #bb9754;
+            background-color: #FFFFFF;
+        }
+	.videos 
+	{ float:right; width:361px; }
+	.sendchat {
+		 top: 650px;
+		 left: 350px;
+		 width:725px;
+		 height: 147px;
+		    border: 1px solid #bb9754;
+		 }
+	.publisherContainer {
+                height:347px;
+                width:361px;
+                float:left;
+                border:1px solid #bb9754;
+				margin-top:2px;
+           		background-color:#FFFFFF;
+				background-image:url(sllogo.jpg);
+            }
+      .subscribersContainer {
+                height:347px;
+                width:361px;
+				left:300px;
+                float:left;
+                border:1px solid #bb9754;
+				margin-top:2px;
+           		background-color:#FFFFFF;
+				background-image:url(sllogo.jpg);
+                
+            }
+        #acceptCallBox {
+            display: none;
+            z-index: 2;
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            border: #bb9754 solid 2px;
+            background-color: pink;
+            padding: 15px;
+        }
+
+
+
+        #onlineusers {
+ min-height: 200px;        }
+        .header {
+            background-color: #bb9754;
+            font-weight:bold;
+			color: #EBE0CD
+             
+        }
+
