@@ -1,0 +1,2 @@
+# hotelconcierge
+This Mobile Application &amp; Web-based Application for Hotels - Mobile application for hotel guests to provide services like booking &amp; personal assistance, video call, notification, traveler tips, suggested path back to the hotel etc) - Web-based application for hotel staff to handle the above advanced services  This project was completed in 2015. All coding and API were not programmed and implemented with latest (2018) technology. You have to do some adjustments in order to fit to modern environments.
